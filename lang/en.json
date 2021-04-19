@@ -1,0 +1,37 @@
+{
+    "app": {
+        "title": "Portfolio"
+    },
+    "projects": {
+        "title": "Projects",
+        "error": "Error loading projects",
+        "coming_soon": "Coming soon",
+        "posted_on": "Posted on"
+    },
+    "skills": {
+        "title": "Skills",
+        "other": "Other"
+    },
+    "cv": {
+        "title": "CV"
+    },
+    "hero": {
+        "title": "Hero"
+    },
+    "socials": {
+        "contact_me": "Contact me"
+    },
+    "imprint": {
+        "title": "Imprint"
+    },
+    "credits": {
+        "customized_by": "Customized by",
+        "build_by": "Build_by"
+    },
+    "aboutMe": {
+        "title": "About me",
+        "attributes": "Attributes",
+        "interests": "Interests",
+        "languages": "Languages"
+    }
+}

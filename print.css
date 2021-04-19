@@ -1,0 +1,49 @@
+@media print {
+  .hide-on-print,
+  .bx--header,
+  footer,
+  button,
+  .socials,
+  .credits {
+    display: none;
+  }
+
+  .show-on-print {
+    display: block;
+  }
+
+  * {
+    color: #333;
+    background-color: white;
+    opacity: 1 !important; /* ignore transitions + display elements */
+  }
+
+  html {
+    width: 100%;
+  }
+
+  body {
+    width: 800px;
+  }
+
+  section {
+    margin: 10px 0;
+    border-left: 3px solid #4589ff;
+  }
+
+  .bx--tile {
+    padding: 0;
+    min-width: 20rem;
+    min-height: 1rem;
+  }
+
+  .print-contact {
+    display: flex;
+  }
+
+  .print-contact li a {
+    margin-right: 4px;
+    padding-bottom: 2px;
+    text-decoration: none;
+  }
+}
